@@ -6,6 +6,7 @@ const progressBar = document.querySelector('.progress__filled');
 const toggle = document.querySelector('.toggle');
 const skipButton = document.querySelectorAll('[data-skip]');
 const ranges = document.querySelectorAll('.player__slider');
+const fullScreen = document.querySelector('.player__full_screen');
 
 function togglePlay() {
   const method = video.paused ? 'play' : 'pause';
